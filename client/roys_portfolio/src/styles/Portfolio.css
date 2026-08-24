@@ -1,0 +1,92 @@
+.portfolio-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* HERO */
+.portfolio-hero h1 {
+  font-size: 2.5rem;
+  color: #1e40af;
+}
+
+.intro {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+/* SECTIONS */
+.portfolio-section {
+  margin-top: 3rem;
+}
+.portfolio-section h2 {
+  font-size: 1.8rem;
+  color: #1e40af;
+  margin-bottom: 1rem;
+}
+.project-card {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 5px solid #f59e0b;
+  margin-bottom: 1.5rem;
+}
+
+.project-content {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.project-content h3 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.project-content p {
+  text-align: left;
+}
+
+/* bullet alignment */
+.project-content ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0.5rem auto;
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+
+.project-content li {
+  margin-bottom: 0.35rem;
+  line-height: 1.5;
+}
+
+/* SKILLS GRID */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.skills-grid h4 {
+  color: #1e40af;
+  margin-right: 2rem;
+}
+
+.skills-grid ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0.5rem auto;
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+
+/* CTA */
+.cta-section {
+  text-align: center;
+  background: #eef2ff;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 3rem;
+}
