@@ -1,7 +1,7 @@
-import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import './index.css'
 
+import './index.css'
+import { createRoot } from 'react-dom/client'
 import RootLayout from './layouts/RootLayout.jsx'
 import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'

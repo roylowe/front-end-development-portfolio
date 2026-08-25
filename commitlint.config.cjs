@@ -15,16 +15,12 @@ module.exports = {
         'build',
         'ci',
         'chore',
-        'revert',
-      ],
+        'revert'
+      ]
     ],
-    'subject-case': [
-      2,
-      'never',
-      ['sentence-case', 'start-case', 'pascal-case', 'upper-case'],
-    ],
+    'subject-case': [2, 'never', ['sentence-case', 'start-case', 'pascal-case', 'upper-case']],
     'subject-empty': [2, 'never'],
     'type-empty': [2, 'never'],
-    'header-max-length': [2, 'always', 72],
-  },
+    'header-max-length': [2, 'always', 72]
+  }
 }
