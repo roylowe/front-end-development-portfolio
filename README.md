@@ -22,3 +22,14 @@ feat(homepage): add hero section layout
 style(theme): apply brand color variables
 feat(api): create POST /api/contact endpoint
 docs(readme): add deployment instructions
+
+## Contact API
+
+The portfolio includes a Node.js/Express API for handling contact form submissions.
+
+### Start the server
+
+```bash
+cd server
+npm install
+node index.js
